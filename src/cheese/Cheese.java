@@ -7,6 +7,9 @@
 package cheese;
 
 import java.util.Scanner;
+//import javax.swing.*;
+//import java.awt.*;
+
 
 public class Cheese {
 
@@ -26,18 +29,18 @@ public class Cheese {
 	private final static double[] price = new double[] {5, 5, 10, 12, 8.5, 12};
 
 	private final static String[] questIt = new String[] {"Quanta ricotta devi fare? ", 
-							      "Quanta caciotta devi fare? ", 
-							      "Quanto yogurt devi fare? ",  
-							      "Quanto primosale devi fare? ", 
-							      "Quanta latteria devi fare? ",
-							      "Quanta mozzarella devi fare? "};
+													      "Quanta caciotta devi fare? ", 
+													      "Quanto yogurt devi fare? ",  
+													      "Quanto primosale devi fare? ", 
+													      "Quanta latteria devi fare? ",
+													      "Quanta mozzarella devi fare? "};
 							      
 	private final static String[] questEn = new String[] {"How much ricotta cheese do you have to produce? ", 
-							      "How much caciotta do you have to produce? ", 
-							      "How much yogurt do you have to produce? ", 
-							      "How much primosale do you have to produce? ", 
-							      "How much latteria do you have to produce? ",
-							      "How much mozzarella do you have to produce? "};
+													      "How much caciotta do you have to produce? ", 
+													      "How much yogurt do you have to produce? ", 
+													      "How much primosale do you have to produce? ", 
+													      "How much latteria do you have to produce? ",
+													      "How much mozzarella do you have to produce? "};
 
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")
@@ -68,7 +71,7 @@ public class Cheese {
 			System.out.print("Sales will produce an estimated profit of € " + valueCounter + "\n\n");
 			System.out.print("Do you want to run it again? (Y/N): ");
 		   	String var = user_input.next();
-		   	if(var.equalsIgnoreCase("Y")) {// Matches "Y" or "y"
+		   	if(var.equalsIgnoreCase("Y")) { // Matches "Y" or "y"
 		   	main(null); // if input is Y then call main again.
 		   }
 		}

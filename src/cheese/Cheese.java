@@ -29,18 +29,18 @@ public class Cheese {
 	private final static double[] price = new double[] {5, 5, 10, 12, 8.5, 12};
 
 	private final static String[] questIt = new String[] {"Quanta ricotta devi fare? ", 
-													      "Quanta caciotta devi fare? ", 
-													      "Quanto yogurt devi fare? ",  
-													      "Quanto primosale devi fare? ", 
-													      "Quanta latteria devi fare? ",
-													      "Quanta mozzarella devi fare? "};
+							      "Quanta caciotta devi fare? ", 
+							      "Quanto yogurt devi fare? ",  
+							      "Quanto primosale devi fare? ", 
+							      "Quanta latteria devi fare? ",
+							      "Quanta mozzarella devi fare? "};
 							      
 	private final static String[] questEn = new String[] {"How much ricotta cheese do you have to produce? ", 
-													      "How much caciotta do you have to produce? ", 
-													      "How much yogurt do you have to produce? ", 
-													      "How much primosale do you have to produce? ", 
-													      "How much latteria do you have to produce? ",
-													      "How much mozzarella do you have to produce? "};
+							      "How much caciotta do you have to produce? ", 
+							      "How much yogurt do you have to produce? ", 
+							      "How much primosale do you have to produce? ", 
+							      "How much latteria do you have to produce? ",
+							      "How much mozzarella do you have to produce? "};
 
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")

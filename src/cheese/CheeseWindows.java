@@ -1,7 +1,7 @@
 package cheese;
 
 import java.awt.EventQueue;
-
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
 public class CheeseWindows {
@@ -39,5 +39,7 @@ public class CheeseWindows {
 		frmCheesemanagerByRobc.setTitle("CheeseManager");
 		frmCheesemanagerByRobc.setBounds(100, 100, 672, 562);
 		frmCheesemanagerByRobc.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		ImageIcon img = new ImageIcon("/home/rob93c/CheeseManager/img/icon_32w.png");
+		frmCheesemanagerByRobc.setIconImage(img.getImage());
 	}
 }

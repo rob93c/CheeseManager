@@ -22,7 +22,7 @@ public class Cheese {
 	 * a kind of cheese and the milk needed to produce it.
 	 */
 	private final static double[] conv 	= new double[] {10, 10, 10, 10, 10, 10};
-	
+
 	/**
 	 * change "price" to mirror your products' prices
 	 */
@@ -35,10 +35,10 @@ public class Cheese {
 							      "Quanta latteria devi fare? ",
 							      "Quanta mozzarella devi fare? "};
 							      
-	private final static String[] questEn = new String[] {"How much ricotta cheese do you have to produce? ", 
-							      "How much caciotta do you have to produce? ", 
-							      "How much yogurt do you have to produce? ", 
-							      "How much primosale do you have to produce? ", 
+	private final static String[] questEn = new String[] {"How much ricotta cheese do you have to produce? ",
+							      "How much caciotta do you have to produce? ",
+							      "How much yogurt do you have to produce? ",
+							      "How much primosale do you have to produce? ",
 							      "How much latteria do you have to produce? ",
 							      "How much mozzarella do you have to produce? "};
 

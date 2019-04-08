@@ -6,7 +6,8 @@ import javax.swing.JFrame;
 
 public class CheeseWindows {
 
-	private JFrame frmCheesemanagerByRobc;
+	private JFrame frame;
+	private ImageIcon img = new ImageIcon("/home/rob93c/CheeseManager/img/icon_32w.png");
 
 	/**
 	 * Launch the application.
@@ -16,7 +17,7 @@ public class CheeseWindows {
 			public void run() {
 				try {
 					CheeseWindows window = new CheeseWindows();
-					window.frmCheesemanagerByRobc.setVisible(true);
+					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -35,11 +36,10 @@ public class CheeseWindows {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		frmCheesemanagerByRobc = new JFrame();
-		frmCheesemanagerByRobc.setTitle("CheeseManager");
-		frmCheesemanagerByRobc.setBounds(100, 100, 672, 562);
-		frmCheesemanagerByRobc.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		ImageIcon img = new ImageIcon("/home/rob93c/CheeseManager/img/icon_32w.png");
-		frmCheesemanagerByRobc.setIconImage(img.getImage());
+		frame = new JFrame();
+		frame.setTitle("CheeseManager");
+		frame.setBounds(100, 100, 672, 562);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setIconImage(img.getImage());
 	}
 }

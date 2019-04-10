@@ -53,7 +53,7 @@ public class Cheese {
 				milkCounter += (array[i] * conv[i]);
 				valueCounter +=	(array[i] * price[i]);
 			}
-			System.out.print("Devi usare " + (int)milkCounter + " litri di latte.\n");
+			System.out.print("\nDevi usare " + (int)milkCounter + " litri di latte.\n");
 			System.out.print("Le vendite produrranno un guadagno stimato di € " + valueCounter + "\n\n");
 			System.out.print("Vuoi eseguirlo ancora? (S/N): ");
 		   	String var = user_input.next();
@@ -67,7 +67,7 @@ public class Cheese {
 				milkCounter += (array[i] * conv[i]);
 				valueCounter +=	(array[i] * price[i]);
 			}
-			System.out.print("You have to use " + (int)milkCounter + " liters of milk.\n");
+			System.out.print("\nYou have to use " + (int)milkCounter + " liters of milk.\n");
 			System.out.print("Sales will produce an estimated profit of € " + valueCounter + "\n\n");
 			System.out.print("Do you want to run it again? (Y/N): ");
 		   	String var = user_input.next();

@@ -1,0 +1,10 @@
+# Ignore following file extensions:
+*.class
+
+# Ignore following files:
+.directory
+.classpath
+.project
+
+# Ignore following folders:
+bin/

@@ -57,7 +57,7 @@ public class Cheese {
 		   	if(var.equalsIgnoreCase("S")) {
 		   	main(null); // if input is S then call main again. 
 		   }
-		} else {
+		} else if(user_input.nextDouble() == 2) {
 			for(int i = 0; i < array.length; i++) {
 				System.out.print(questEn[i] + "(kg) ");
 				array[i] = user_input.nextDouble();
@@ -71,6 +71,8 @@ public class Cheese {
 		   	if(var.equalsIgnoreCase("Y")) { // Matches "Y" or "y"
 		   	main(null); // if input is Y then call main again.
 		   }
+		} else {
+			System.out.print("Please, use 1 or 2 to select the language.\n")
 		}
 	} 
 }

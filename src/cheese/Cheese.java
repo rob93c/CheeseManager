@@ -18,12 +18,26 @@ public class Cheese {
 	 * change "conv" to mirror accurate conversion rates between 
 	 * a kind of cheese and the milk needed to produce it.
 	 */
-	private final static double[] conv 	= new double[] {10, 10, 10, 10, 10, 10};
+	private final static double[] conv = new double[] {	// CONVERSION VALUES OF:
+							   10,	// ricotta 
+							   10,	// caciotta 
+							   10,	// yogurt 
+							   10,	// primosale 
+							   10,	// latteria 
+							   10 	// mozzarella	
+							  };
 
 	/**
 	 * change "price" to mirror your products' prices
 	 */
-	private final static double[] price = new double[] {5, 5, 10, 12, 8.5, 12};
+	private final static double[] price = new double[] { 	 // PRICES OF:
+							    5,	 // ricotta
+							    5,	 // caciotta
+							    10,  // yogurt
+							    12,  // primosale
+							    8.5, // latteria
+							    12	 // mozzarella
+							   };
 
 	private final static String[] questIt = new String[] {"Quanta ricotta devi fare? ", 
 							      "Quanta caciotta devi fare? ", 

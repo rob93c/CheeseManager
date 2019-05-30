@@ -86,7 +86,7 @@ public class Cheese {
 		   	main(null); // if input is Y then call main again.
 		   }
 		} else {
-			System.out.print("Please, use 1 or 2 to select the language.\n")
+			System.out.print("Please, use 1 or 2 to select the language.\n");
 		}
 	} 
 }
